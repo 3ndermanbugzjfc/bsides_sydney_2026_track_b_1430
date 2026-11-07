@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@e5c5eeb9ed37c727c7b3c70fb184e19a9ff7f1c9
+      - uses: actions/checkout@FAIR_TEST_commit_ref_across_repos
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
